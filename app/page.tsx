@@ -40,8 +40,8 @@ export default function Portfolio() {
               <Code className="w-16 h-16 text-accent-foreground" />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
-              Bilgisayar Mühendisliği
-              <span className="block text-accent">Öğrencisi</span>
+              Sıla İs
+
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               React, HTML ve CSS konularında uzmanlaşan freelance web geliştirici. Modern ve kullanıcı dostu web
@@ -80,14 +80,18 @@ export default function Portfolio() {
                 kullanıcı deneyimini ön planda tutarak, temiz ve işlevsel tasarımlar üretiyorum.
               </p>
               <div className="flex gap-4">
-                <Button variant="outline" size="sm">
-                  <Github className="w-4 h-4 mr-2" />
-                  GitHub
-                </Button>
-                <Button variant="outline" size="sm">
-                  <Linkedin className="w-4 h-4 mr-2" />
-                  LinkedIn
-                </Button>
+                <Button variant="outline" size="sm" asChild>
+          <a href="https://github.com/silais34" target="_blank">
+            <Github className="w-4 h-4 mr-2" />
+              GitHub
+                  </a>
+            </Button>
+           <Button variant="outline" size="sm" asChild>
+           <a href="https://www.linkedin.com/in/sıla-is"  target="_blank">
+            <Linkedin className="w-4 h-4 mr-2" />
+             LinkedIn
+            </a>
+             </Button>
               </div>
             </div>
             <div className="bg-card p-8 rounded-lg">
@@ -95,7 +99,7 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div>
                   <h5 className="font-medium text-card-foreground">Bilgisayar Mühendisliği</h5>
-                  <p className="text-sm text-muted-foreground">Üniversite Öğrencisi</p>
+                  <p className="text-sm text-muted-foreground">Harran Üniversitesi Öğrencisi</p>
                 </div>
                 <div>
                   <h5 className="font-medium text-card-foreground">Web Geliştirme</h5>
@@ -148,7 +152,6 @@ export default function Portfolio() {
                   <Badge variant="secondary">GitHub</Badge>
                   <Badge variant="secondary">VS Code</Badge>
                   <Badge variant="secondary">Figma</Badge>
-                  <Badge variant="secondary">Vercel</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -164,7 +167,7 @@ export default function Portfolio() {
                   <Badge variant="outline">Next.js</Badge>
                   <Badge variant="outline">TypeScript</Badge>
                   <Badge variant="outline">Node.js</Badge>
-                  <Badge variant="outline">PostgreSQL</Badge>
+                  <Badge variant="outline">MYSQL</Badge>
                   <Badge variant="outline">API Geliştirme</Badge>
                 </div>
               </CardContent>
@@ -223,10 +226,18 @@ export default function Portfolio() {
                   <Badge variant="secondary">CSS</Badge>
                 </div>
                 <div className="flex gap-2">
-                  <Button size="sm" variant="outline">
-                    <Github className="w-4 h-4 mr-2" />
-                    GitHub
+                  <Button size="sm" variant="outline" asChild>
+                    <a href="https://github.com/silais34" target="_blank">
+                      <Github className="w-4 h-4 mr-2" />
+                      GitHub
+                    </a>
                   </Button>
+                  <Button size="sm" variant="outline" asChild>
+                  <a href="https://www.linkedin.com/in/sıla-is"  target="_blank">
+                  <Linkedin className="w-4 h-4 mr-2" />
+               LinkedIn
+                    </a>
+</Button>
                   <Button size="sm">
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Demo
@@ -287,7 +298,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Linkedin className="w-5 h-5 text-accent" />
-                  <span className="text-muted-foreground">linkedin.com/in/kullaniciadi</span>
+                  <span className="text-muted-foreground">linkedin.com/in/Sıla İs</span>
                 </div>
               </div>
             </div>
@@ -340,13 +351,13 @@ export default function Portfolio() {
               © 2024 Bilgisayar Mühendisliği Öğrencisi. Tüm hakları saklıdır.
             </p>
             <div className="flex justify-center gap-6">
-              <a href="#" className="text-sidebar-foreground hover:text-sidebar-primary transition-colors">
-                <Github className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-sidebar-foreground hover:text-sidebar-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-sidebar-foreground hover:text-sidebar-primary transition-colors">
+        <a href="https://github.com/silais34" target="_blank" className="text-muted-foreground hover:text-foreground">
+       <Github className="w-5 h-5" />
+        </a>
+        <a href="https://www.linkedin.com/in/sıla-is" target="_blank" className="text-muted-foreground        hover:text-foreground">
+        <Linkedin className="w-5 h-5" />
+         </a>
+         <a href="mailto:yunnis2018@gmail.com" className="text-muted-foreground hover:text-foreground">
                 <Mail className="w-5 h-5" />
               </a>
             </div>
