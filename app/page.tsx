@@ -95,7 +95,7 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div>
                   <h5 className="font-medium text-card-foreground">Bilgisayar Mühendisliği</h5>
-                  <p className="text-sm text-muted-foreground">Harran Üniversitesi Öğrencisi</p>
+                  <p className="text-sm text-muted-foreground">Üniversite Öğrencisi</p>
                 </div>
                 <div>
                   <h5 className="font-medium text-card-foreground">Web Geliştirme</h5>
@@ -287,7 +287,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Linkedin className="w-5 h-5 text-accent" />
-                  <span className="text-muted-foreground">linkedin.com/in/Sıla İs</span>
+                  <span className="text-muted-foreground">linkedin.com/in/kullaniciadi</span>
                 </div>
               </div>
             </div>
