@@ -95,7 +95,7 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div>
                   <h5 className="font-medium text-card-foreground">Bilgisayar Mühendisliği</h5>
-                  <p className="text-sm text-muted-foreground">Üniversite Öğrencisi</p>
+                  <p className="text-sm text-muted-foreground">Hrran Üniversitesi Öğrencisi</p>
                 </div>
                 <div>
                   <h5 className="font-medium text-card-foreground">Web Geliştirme</h5>
@@ -279,15 +279,16 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Mail className="w-5 h-5 text-accent" />
-                  <span className="text-muted-foreground">email@example.com</span>
+                  <span className="text-muted-foreground">yunnis2018@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Github className="w-5 h-5 text-accent" />
-                  <span className="text-muted-foreground">github.com/kullaniciadi</span>
+                  <span className="text-muted-foreground">github.com/silais34</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Linkedin className="w-5 h-5 text-accent" />
-                  <span className="text-muted-foreground">linkedin.com/in/kullaniciadi</span>
+                  <span className="text-muted-foreground">linkedin.com/in/Sıla İS
+                  </span>
                 </div>
               </div>
             </div>
