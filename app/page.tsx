@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Github, Linkedin, Mail, ExternalLink, Code, Database, Globe } from "lucide-react"
+import { Github, Linkedin, Mail, Code, Database,ExternalLink, Globe, Heart, Activity, User, GraduationCap } from 'lucide-react'
 
 export default function Portfolio() {
   return (
@@ -41,7 +41,6 @@ export default function Portfolio() {
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-4">
               Sıla İs
-
             </h1>
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               React, HTML ve CSS konularında uzmanlaşan freelance web geliştirici. Modern ve kullanıcı dostu web
@@ -94,7 +93,7 @@ export default function Portfolio() {
              </Button>
               </div>
             </div>
-            <div className="bg-card p-8 rounded-lg">
+           <div className="bg-card p-8 rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105">
               <h4 className="text-xl font-semibold text-card-foreground mb-4">Eğitim & Deneyim</h4>
               <div className="space-y-4">
                 <div>
@@ -186,91 +185,31 @@ export default function Portfolio() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="group hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <div className="w-full h-48 bg-gradient-to-br from-accent/20 to-accent/10 rounded-lg mb-4 flex items-center justify-center">
-                  <Globe className="w-16 h-16 text-accent" />
-                </div>
-                <CardTitle>Kişisel Portfolyo</CardTitle>
-                <CardDescription>React ve Tailwind CSS ile oluşturulmuş modern portfolyo sitesi</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex gap-2 mb-4">
-                  <Badge variant="secondary">React</Badge>
-                  <Badge variant="secondary">Tailwind</Badge>
-                </div>
-                <div className="flex gap-2">
-                  <Button size="sm" variant="outline">
-                    <Github className="w-4 h-4 mr-2" />
-                    GitHub
-                  </Button>
-                  <Button size="sm">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Demo
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="group hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <div className="w-full h-48 bg-gradient-to-br from-chart-2/20 to-chart-2/10 rounded-lg mb-4 flex items-center justify-center">
-                  <Code className="w-16 h-16 text-chart-2" />
-                </div>
-                <CardTitle>Todo Uygulaması</CardTitle>
-                <CardDescription>React hooks kullanarak yapılmış basit todo uygulaması</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex gap-2 mb-4">
-                  <Badge variant="secondary">React</Badge>
-                  <Badge variant="secondary">CSS</Badge>
-                </div>
-                <div className="flex gap-2">
-                  <Button size="sm" variant="outline" asChild>
-                    <a href="https://github.com/silais34" target="_blank">
-                      <Github className="w-4 h-4 mr-2" />
-                      GitHub
-                    </a>
-                  </Button>
-                  <Button size="sm" variant="outline" asChild>
-                  <a href="https://www.linkedin.com/in/sıla-is"  target="_blank">
-                  <Linkedin className="w-4 h-4 mr-2" />
-               LinkedIn
-                    </a>
-</Button>
-                  <Button size="sm">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Demo
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="group hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <div className="w-full h-48 bg-gradient-to-br from-chart-3/20 to-chart-3/10 rounded-lg mb-4 flex items-center justify-center">
-                  <Database className="w-16 h-16 text-chart-3" />
-                </div>
-                <CardTitle>Hava Durumu App</CardTitle>
-                <CardDescription>API entegrasyonu ile hava durumu bilgilerini gösteren uygulama</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex gap-2 mb-4">
-                  <Badge variant="secondary">React</Badge>
-                  <Badge variant="secondary">API</Badge>
-                </div>
-                <div className="flex gap-2">
-                  <Button size="sm" variant="outline">
-                    <Github className="w-4 h-4 mr-2" />
-                    GitHub
-                  </Button>
-                  <Button size="sm">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Demo
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
+                 <Card className="group hover:shadow-lg transition-shadow">
+  <CardHeader>
+    <div className="w-full h-48 bg-gradient-to-br from-red-500/20 to-pink-500/10 rounded-lg mb-4 flex items-center justify-center">
+      <Activity className="w-16 h-16 text-red-500" />
+    </div>
+    <CardTitle>Kalp Hastalığı Tahmini Uygulaması</CardTitle>
+    <CardDescription>11 farklı sağlık verisi kullanarak kalp hastalığı riskini tahmin eden makine öğrenmesi uygulaması. Risk yüzdesi ve detaylı analiz sunar.</CardDescription>
+  </CardHeader>
+  <CardContent>
+    <div className="flex flex-wrap gap-2 mb-4">
+      <Badge variant="secondary">Python</Badge>
+      <Badge variant="secondary">Streamlit</Badge>
+      <Badge variant="secondary">Machine Learning</Badge>
+      <Badge variant="secondary">Pandas</Badge>
+    </div>
+    <div className="flex gap-2">
+      <Button size="sm" variant="outline" asChild>
+        <a href="https://github.com/silais34/heart-disease-prediction" target="_blank">
+          <Github className="w-4 h-4 mr-2" />
+          GitHub
+        </a>
+      </Button>
+    </div>
+  </CardContent>
+</Card>
           </div>
         </div>
       </section>
