@@ -237,7 +237,7 @@ export default function Portfolio() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Linkedin className="w-5 h-5 text-accent" />
-                  <span className="text-muted-foreground">linkedin.com/in/Sıla İs</span>
+                  <span className="text-muted-foreground">linkedin.com/in/sıla-is</span>
                 </div>
               </div>
             </div>
@@ -261,7 +261,7 @@ export default function Portfolio() {
                     <input
                       type="email"
                       className="w-full px-3 py-2 bg-input border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
-                      placeholder="email@example.com"
+                      placeholder="email@gmail.com"
                     />
                   </div>
                   <div>
@@ -287,7 +287,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-sidebar-foreground mb-4">
-              © 2024 Bilgisayar Mühendisliği Öğrencisi. Tüm hakları saklıdır.
+              © 2023 Bilgisayar Mühendisliği Öğrencisi. Tüm hakları saklıdır.
             </p>
             <div className="flex justify-center gap-6">
         <a href="https://github.com/silais34" target="_blank" className="text-muted-foreground hover:text-foreground">
